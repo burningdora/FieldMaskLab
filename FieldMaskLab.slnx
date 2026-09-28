@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="FieldMaskLab.Tests/FieldMaskLab.Tests.csproj" />
+  <Project Path="FieldMaskLab/FieldMaskLab.csproj" />
+</Solution>
