@@ -23,32 +23,8 @@ FieldMaskLab/
     └── FieldMaskBitTests.cs
 ```
 
-## Как запустить (нужен установленный .NET 8 SDK)
 
-Собрать solution и создать связи между проектами (один раз):
 
-```bash
-cd FieldMaskLab
-dotnet new sln -n FieldMaskLab
-dotnet sln add FieldMaskLab/FieldMaskLab.csproj
-dotnet sln add FieldMaskLab.Tests/FieldMaskLab.Tests.csproj
-```
 
-Запустить демо-программу:
 
-```bash
-dotnet run --project FieldMaskLab
-```
 
-Запустить unit-тесты:
-
-```bash
-dotnet test FieldMaskLab.Tests
-```
-
-## Важное примечание
-
-Этот код написан и вычитан вручную (в среде без установленного .NET SDK, компиляция
-не проверялась автоматически). Синтаксис стандартный и простой (C# 8+/.NET 8), но
-перед защитой обязательно прогоните `dotnet build` и `dotnet test` сами — и пробегитесь
-по коду, чтобы уверенно его объяснять (см. подробности в чате).
